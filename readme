@@ -1,0 +1,74 @@
+# YT Downloader — setup no Xcode
+
+## 1. Criar o projeto
+1. Xcode → File → New → Project
+2. macOS → App
+3. Nome: `YTDownloader` (ou o que preferir)
+4. Interface: **SwiftUI** · Language: **Swift**
+5. Desmarque "Use Core Data" e "Include Tests" (não são necessários)
+6. Deployment target: macOS 14 ou superior (ideal: mirar no SDK do macOS 27
+   Golden Gate para herdar o Liquid Glass automaticamente nos controles nativos)
+
+## 2. Adicionar os arquivos
+Depois de criar o projeto, apague o `ContentView.swift` e o arquivo `App.swift`
+gerados automaticamente. Arraste as pastas `App/`, `Models/`, `Services/` e
+`Views/` deste pacote para dentro do navegador do projeto no Xcode
+(marque "Copy items if needed" e o target do app).
+
+## 3. Capabilities (importante)
+Vá em **Signing & Capabilities** do target:
+- **Desmarque "App Sandbox"** — o app precisa rodar `Process` apontando pra
+  binários arbitrários no disco (yt-dlp) e não vai funcionar dentro do sandbox
+  padrão do App Store. Isso é normal para apps de uso pessoal fora da loja.
+- Adicione a capability **User Notifications** (necessária para o toggle de
+  notificação ao concluir).
+
+## 4. Ajustar os caminhos padrão
+Em `Models/AppSettings.swift`, os caminhos padrão já apontam para:
+- Estável: `/opt/homebrew/bin/yt-dlp`
+- Alpha: `~/mediabrain/venv/bin/yt-dlp`
+
+Se algum dia você mudar de máquina ou de venv, não precisa recompilar —
+dá pra editar os dois campos direto na tela de Preferências do app.
+
+## 5. Importar os cookies do Artlist
+Na primeira execução, vá em Preferências → Cookies do Artlist → Importar,
+e selecione seu arquivo `artlist.io_cookies.txt` atual. O app copia o
+arquivo para dentro da própria pasta de dados dele
+(`~/Library/Application Support/YTDownloader/cookies/`), então a partir
+daí ele já usa essa cópia — não depende mais do caminho fixo na sua home.
+
+## 6. Rodar
+Cmd+R. O ícone do app aparece na barra de título do Xcode rodando —
+depois de testar, Product → Archive para gerar um `.app` standalone que
+você pode mover para /Applications e fixar no Dock.
+
+## O que já está implementado
+- Detecção automática de site (YouTube / Artlist-Artgrid / genérico),
+  resolvendo redirects antes de decidir o perfil
+- Execução do yt-dlp via `Process`, sem terminal visível
+- Barra de progresso e velocidade, parseados do stdout em tempo real
+- Fila de downloads, sequencial ou paralela (configurável)
+- Botões de update por canal (estável via Homebrew, alpha via
+  `--update-to nightly@latest`)
+- Preferências com editor de argumentos por perfil, pasta de download,
+  caminhos dos binários e notificações opcionais
+
+## Nota sobre o visual Liquid Glass
+As telas agora usam as APIs novas de Liquid Glass do macOS 26/27
+(`.buttonStyle(.glass)`, `.buttonStyle(.glassProminent)`, `.glassEffect()`,
+`GlassEffectContainer`). Isso exige **Deployment Target macOS 26.0 ou
+superior** — confira em Target → General → Minimum Deployments antes de
+compilar, senão o build vai falhar por indisponibilidade dessas APIs.
+
+## Acesso pelo celular (v4.0.0+)
+O app pode rodar um servidor HTTP local (via `Network` framework, sem
+dependências externas) pra você colar links direto do navegador do iPhone,
+na mesma rede Wi-Fi. Ative em **Interface → Acesso pelo celular**.
+
+**Na primeira vez que ativar**, o macOS pode mostrar um alerta pedindo
+permissão de **"Rede Local"** — é o comportamento normal do sistema pra
+qualquer app que abra portas de rede, basta autorizar.
+
+Como o app não usa App Sandbox, não é necessário adicionar nenhuma
+entitlement extra (`com.apple.security.network.server`) — funciona direto.
