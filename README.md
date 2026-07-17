@@ -1,6 +1,6 @@
 # Slidown
 
-[English](#english) | **Português** | [Español](#español)
+[English](#english) | [Português](#português) | [Español](#español)
 
 <img alt="macOS" src="https://img.shields.io/badge/macOS-Tahoe%20(26)%2B-blue">
 <img alt="Idiomas" src="https://img.shields.io/badge/idiomas-6-orange">
@@ -97,7 +97,7 @@ Slidown is a technical convenience tool. Responsible use — respecting copyrigh
 
 ---
 
-## 🇧🇷 Português
+## Português
 
 **Slidown** é um app nativo de macOS pra baixar vídeos e áudios da forma mais simples possível — cola o link, aperta um botão, pronto. Feito com SwiftUI, pensado desde o início pra parecer (e se comportar) como qualquer app nativo do sistema: usa os componentes visuais padrão do macOS, respeita claro/escuro automaticamente, e não tenta reinventar nada que a Apple já resolveu bem.
 
