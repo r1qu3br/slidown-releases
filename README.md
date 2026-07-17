@@ -25,6 +25,51 @@ Available in **6 languages**: English, Portuguese, Spanish, French, Japanese, an
 - Automatic updates for both the internal tools and the app itself, no manual reinstall needed
 - Available in 6 languages, following your system language automatically
 
+### Screenshots
+
+<table>
+<tr><td align="center"><b>Download</b></td><td align="center"><b>Downloads folder</b></td></tr>
+<tr>
+<td><img src="screenshots/1.png" width="380"></td>
+<td><img src="screenshots/2.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Profiles</b></td><td align="center"><b>Updates</b></td></tr>
+<tr>
+<td><img src="screenshots/3.png" width="380"></td>
+<td><img src="screenshots/4.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Remote access</b></td><td align="center"><b>Interface settings</b></td></tr>
+<tr>
+<td><img src="screenshots/5.png" width="380"></td>
+<td><img src="screenshots/6.png" width="380"></td>
+</tr>
+<tr><td align="center" colspan="2"><b>Mobile page (opened from a phone on the same network)</b></td></tr>
+<tr><td colspan="2" align="center"><img src="screenshots/7.png" width="300"></td></tr>
+</table>
+
+<details>
+<summary>Dark mode</summary>
+<table>
+<tr><td align="center"><b>Download</b></td><td align="center"><b>Downloads folder</b></td></tr>
+<tr>
+<td><img src="screenshots/1b.png" width="380"></td>
+<td><img src="screenshots/2b.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Profiles</b></td><td align="center"><b>Updates</b></td></tr>
+<tr>
+<td><img src="screenshots/3b.png" width="380"></td>
+<td><img src="screenshots/4b.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Remote access</b></td><td align="center"><b>Interface settings</b></td></tr>
+<tr>
+<td><img src="screenshots/5b.png" width="380"></td>
+<td><img src="screenshots/6b.png" width="380"></td>
+</tr>
+<tr><td align="center" colspan="2"><b>Mobile page (opened from a phone on the same network)</b></td></tr>
+<tr><td colspan="2" align="center"><img src="screenshots/7b.png" width="300"></td></tr>
+</table>
+</details>
+
 ### Requirements
 - **macOS Tahoe (26) or later**
 - Internet connection (only needed to fetch internal tools and the videos themselves)
@@ -68,6 +113,51 @@ Disponível em **6 idiomas**: português, inglês, espanhol, francês, japonês 
 - Atualização automática das ferramentas internas e do próprio app, sem precisar reinstalar manualmente
 - Disponível em 6 idiomas, acompanhando automaticamente o idioma do sistema
 
+### Capturas de tela
+
+<table>
+<tr><td align="center"><b>Baixar</b></td><td align="center"><b>Pasta de downloads</b></td></tr>
+<tr>
+<td><img src="screenshots/1.png" width="380"></td>
+<td><img src="screenshots/2.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Perfis</b></td><td align="center"><b>Atualizações</b></td></tr>
+<tr>
+<td><img src="screenshots/3.png" width="380"></td>
+<td><img src="screenshots/4.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Acesso remoto</b></td><td align="center"><b>Interface</b></td></tr>
+<tr>
+<td><img src="screenshots/5.png" width="380"></td>
+<td><img src="screenshots/6.png" width="380"></td>
+</tr>
+<tr><td align="center" colspan="2"><b>Página aberta pelo celular, na mesma rede</b></td></tr>
+<tr><td colspan="2" align="center"><img src="screenshots/7.png" width="300"></td></tr>
+</table>
+
+<details>
+<summary>Modo escuro</summary>
+<table>
+<tr><td align="center"><b>Baixar</b></td><td align="center"><b>Pasta de downloads</b></td></tr>
+<tr>
+<td><img src="screenshots/1b.png" width="380"></td>
+<td><img src="screenshots/2b.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Perfis</b></td><td align="center"><b>Atualizações</b></td></tr>
+<tr>
+<td><img src="screenshots/3b.png" width="380"></td>
+<td><img src="screenshots/4b.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Acesso remoto</b></td><td align="center"><b>Interface</b></td></tr>
+<tr>
+<td><img src="screenshots/5b.png" width="380"></td>
+<td><img src="screenshots/6b.png" width="380"></td>
+</tr>
+<tr><td align="center" colspan="2"><b>Página aberta pelo celular, na mesma rede</b></td></tr>
+<tr><td colspan="2" align="center"><img src="screenshots/7b.png" width="300"></td></tr>
+</table>
+</details>
+
 ### Requisitos
 - **macOS Tahoe (26) ou mais recente**
 - Conexão com a internet (só pra baixar as ferramentas internas e os próprios vídeos)
@@ -110,6 +200,51 @@ Disponible en **6 idiomas**: español, inglés, portugués, francés, japonés y
 - Acceso remoto por la misma red Wi-Fi — funciona desde cualquier celular, tablet o computadora en la red, no solo iPhone (pega el enlace desde cualquier dispositivo, la Mac lo descarga)
 - Actualización automática de las herramientas internas y de la propia app, sin reinstalación manual
 - Disponible en 6 idiomas, siguiendo automáticamente el idioma del sistema
+
+### Capturas de pantalla
+
+<table>
+<tr><td align="center"><b>Descargar</b></td><td align="center"><b>Carpeta de descargas</b></td></tr>
+<tr>
+<td><img src="screenshots/1.png" width="380"></td>
+<td><img src="screenshots/2.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Perfiles</b></td><td align="center"><b>Actualizaciones</b></td></tr>
+<tr>
+<td><img src="screenshots/3.png" width="380"></td>
+<td><img src="screenshots/4.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Acceso remoto</b></td><td align="center"><b>Interfaz</b></td></tr>
+<tr>
+<td><img src="screenshots/5.png" width="380"></td>
+<td><img src="screenshots/6.png" width="380"></td>
+</tr>
+<tr><td align="center" colspan="2"><b>Página abierta desde el celular, en la misma red</b></td></tr>
+<tr><td colspan="2" align="center"><img src="screenshots/7.png" width="300"></td></tr>
+</table>
+
+<details>
+<summary>Modo oscuro</summary>
+<table>
+<tr><td align="center"><b>Descargar</b></td><td align="center"><b>Carpeta de descargas</b></td></tr>
+<tr>
+<td><img src="screenshots/1b.png" width="380"></td>
+<td><img src="screenshots/2b.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Perfiles</b></td><td align="center"><b>Actualizaciones</b></td></tr>
+<tr>
+<td><img src="screenshots/3b.png" width="380"></td>
+<td><img src="screenshots/4b.png" width="380"></td>
+</tr>
+<tr><td align="center"><b>Acceso remoto</b></td><td align="center"><b>Interfaz</b></td></tr>
+<tr>
+<td><img src="screenshots/5b.png" width="380"></td>
+<td><img src="screenshots/6b.png" width="380"></td>
+</tr>
+<tr><td align="center" colspan="2"><b>Página abierta desde el celular, en la misma red</b></td></tr>
+<tr><td colspan="2" align="center"><img src="screenshots/7b.png" width="300"></td></tr>
+</table>
+</details>
 
 ### Requisitos
 - **macOS Tahoe (26) o posterior**
