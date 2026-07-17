@@ -18,13 +18,27 @@ Por baixo dos panos, o Slidown usa o **[yt-dlp](https://github.com/yt-dlp/yt-dlp
 - Interface 100% nativa, seguindo os padrões visuais do macOS
 - Fila de downloads com modo simultâneo ou "modo lento" (evita bloqueios em sites sensíveis)
 - Perfis por site, com detecção automática de qual configuração usar
-- Acesso remoto pelo celular na mesma rede Wi-Fi (cola o link do iPhone, o Mac baixa)
+- Acesso remoto pela mesma rede Wi-Fi — funciona de qualquer celular, tablet ou computador na rede, não só iPhone (cola o link de qualquer dispositivo, o Mac baixa)
 - Atualização automática das ferramentas internas e do próprio app, sem precisar reinstalar manualmente
 - Multilíngue: português, inglês, espanhol, francês, japonês e chinês
 
 ### Requisitos
 - **macOS Tahoe (26) ou mais recente**
 - Conexão com a internet (só pra baixar as ferramentas internas e os próprios vídeos)
+
+### Instalação
+1. Baixa o `.zip` mais recente na aba [Releases](../../releases)
+2. Descompacta e arrasta o `Slidown.app` pra pasta Aplicativos
+
+**Importante**: o Slidown é um projeto pessoal e **não é assinado pela Apple** (não passou pelo processo de notarização, que é pago). Por isso, na primeira vez que for abrir, o macOS vai bloquear com um aviso de "desenvolvedor não identificado". Pra liberar, escolha um dos dois caminhos:
+
+- **Mais simples**: clica com o botão direito em cima do `Slidown.app` → **Abrir** → confirma no aviso que aparece (só precisa fazer isso uma vez)
+- **Alternativa via Terminal**: cola esse comando (ajusta o caminho se instalou em outro lugar):
+  ```
+  xattr -cr /Applications/Slidown.app
+  ```
+
+Isso é uma característica normal de apps distribuídos fora da App Store, não um problema do Slidown em si.
 
 ### Sem publicidade, nunca
 O Slidown não mostra anúncios, não vende dados, não tem nenhum tipo de rastreamento comercial embutido. É uma ferramenta pessoal, feita pra uso pessoal.
@@ -44,13 +58,27 @@ Under the hood, Slidown is powered by **[yt-dlp](https://github.com/yt-dlp/yt-dl
 - Fully native interface, following macOS design standards
 - Download queue with simultaneous or "slow mode" (avoids rate limits on sensitive sites)
 - Per-site profiles with automatic detection
-- Remote access from your phone on the same Wi-Fi network (paste a link from your iPhone, the Mac downloads it)
+- Remote access over the same Wi-Fi network — works from any phone, tablet, or computer on the network, not just iPhone (paste a link from any device, the Mac downloads it)
 - Automatic updates for both the internal tools and the app itself, no manual reinstall needed
 - Multilingual: Portuguese, English, Spanish, French, Japanese, and Chinese
 
 ### Requirements
 - **macOS Tahoe (26) or later**
 - Internet connection (only needed to fetch internal tools and the videos themselves)
+
+### Installation
+1. Download the latest `.zip` from the [Releases](../../releases) tab
+2. Unzip it and drag `Slidown.app` into your Applications folder
+
+**Important**: Slidown is a personal project and **is not signed by Apple** (it hasn't gone through Apple's paid notarization process). Because of this, the first time you open it, macOS will block it with an "unidentified developer" warning. To allow it, pick one of these:
+
+- **Simplest**: right-click on `Slidown.app` → **Open** → confirm on the prompt that appears (only needed once)
+- **Alternative via Terminal**: paste this command (adjust the path if you installed it elsewhere):
+  ```
+  xattr -cr /Applications/Slidown.app
+  ```
+
+This is standard behavior for apps distributed outside the App Store, not an issue specific to Slidown.
 
 ### No ads, ever
 Slidown shows no ads, sells no data, and has no commercial tracking of any kind built in. It's a personal tool, built for personal use.
@@ -70,13 +98,27 @@ Por debajo, Slidown funciona con **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** 
 - Interfaz 100% nativa, siguiendo los estándares visuales de macOS
 - Cola de descargas con modo simultáneo o "modo lento" (evita bloqueos en sitios sensibles)
 - Perfiles por sitio, con detección automática de cuál configuración usar
-- Acceso remoto desde el celular en la misma red Wi-Fi (pega el enlace desde el iPhone, la Mac lo descarga)
+- Acceso remoto por la misma red Wi-Fi — funciona desde cualquier celular, tablet o computadora en la red, no solo iPhone (pega el enlace desde cualquier dispositivo, la Mac lo descarga)
 - Actualización automática de las herramientas internas y de la propia app, sin reinstalación manual
 - Multilingüe: portugués, inglés, español, francés, japonés y chino
 
 ### Requisitos
 - **macOS Tahoe (26) o posterior**
 - Conexión a internet (solo para descargar las herramientas internas y los propios videos)
+
+### Instalación
+1. Descarga el `.zip` más reciente en la pestaña [Releases](../../releases)
+2. Descomprímelo y arrastra `Slidown.app` a la carpeta Aplicaciones
+
+**Importante**: Slidown es un proyecto personal y **no está firmado por Apple** (no pasó por el proceso de notarización, que es pago). Por eso, la primera vez que lo abras, macOS lo va a bloquear con un aviso de "desarrollador no identificado". Para permitirlo, elige uno de estos caminos:
+
+- **Más simple**: clic derecho sobre `Slidown.app` → **Abrir** → confirma en el aviso que aparece (solo hace falta una vez)
+- **Alternativa por Terminal**: pega este comando (ajusta la ruta si lo instalaste en otro lugar):
+  ```
+  xattr -cr /Applications/Slidown.app
+  ```
+
+Esto es un comportamiento normal de apps distribuidas fuera de la App Store, no un problema propio de Slidown.
 
 ### Sin publicidad, nunca
 Slidown no muestra anuncios, no vende datos, no tiene ningún tipo de rastreo comercial integrado. Es una herramienta personal, hecha para uso personal.
